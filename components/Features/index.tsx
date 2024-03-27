@@ -12,7 +12,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="المميزات الرئيسية"
-            paragraph="هناك العديد من الاختلافات في مقاطع Lorem Ipsum المتاحة ولكن الغالبية تعرض تعديلات في شكل ما."
+            paragraph="هناك العديد من الاختلافات في مقاطع  المتاحة ولكن الغالبية تعرض تعديلات في شكل ما."
             center
           />
 

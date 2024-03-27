@@ -10,7 +10,7 @@ const Breadcrumb = ({
   return (
     <>
       <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
-        <div className="container">
+        <div className="container" dir="rtl">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
@@ -22,21 +22,21 @@ const Breadcrumb = ({
                 </p>
               </div>
             </div>
-            <div className="w-full px-4 md:w-4/12 lg:w-5/12">
+            <div className="w-full px-4 md:w-4/12 lg:w-5/12" dir="rtl">
               <div className="text-end">
-                <ul className="flex items-center md:justify-end">
-                  <li className="flex items-center">
-                    <Link
-                      href="/"
-                      className="pr-1 text-base font-medium text-body-color hover:text-primary"
-                    >
-                      Home
-                    </Link>
-                    <span className="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-body-color"></span>
-                  </li>
+                <ul className="flex items-center md:justify-end" dir="rtl">
                   <li className="text-base font-medium text-primary">
                     {pageName}
                   </li>
+                  <li className="flex items-center">
+                    <span className="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-body-color"></span>
+                  </li>
+                  <Link
+                    href="/"
+                    className="pr-1 text-base font-medium text-body-color hover:text-primary"
+                  >
+                    الصفحة الرئيسية
+                  </Link>
                 </ul>
               </div>
             </div>

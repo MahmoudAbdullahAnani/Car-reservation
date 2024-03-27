@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
+    name: "Mohamed Ali",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "أعضائنا معجبون جدًا. انها بديهية. انه نظيف. إنها خالية من الإلهاء. إذا كنت تقوم ببناء مجتمع",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
+    name: "Mahmoud Abdullah",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "أعضائنا معجبون جدًا. انها بديهية. انه نظيف. إنها خالية من الإلهاء. إذا كنت تقوم ببناء مجتمع",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "Ahmed Ali",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "أعضائنا معجبون جدًا. انها بديهية. انه نظيف. إنها خالية من الإلهاء. إذا كنت تقوم ببناء مجتمع",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="ماذا يقول مستخدمونا"
+          paragraph="ماذا يقول المستخدمين المميزين لدينا عن الخدمات التي نقدمها في شركتنا"
           center
         />
 
